@@ -14,7 +14,7 @@ Mari membuat tiles sendiri mirip seperti diatas, tanpa mengoyak jeroan Aplikasi 
 Terlihat tiles berupa rounded corner, kita bisa menggunakan [CardView](https://developer.android.com/reference/android/support/v7/widget/CardView.html) untuk membuatnya. Gambar diatas memakai 3dp untuk corner radiusnya.
 
 ## Koreografi
-Pada bagian bawah terdapat 2 elemen yang berdiri diatas LinearLayout, pertama quantity view yang didalamnya termasuk nilai quantity dan tombol (+) dan (-), kedua adalah tombol "BELI".
+Pada bagian bawah terdapat 2 elemen yang berdir diatas LinearLayout, pertama quantity view yang didalamnya termasuk nilai quantity dan tombol (+) dan (-), kedua adalah tombol "BELI".
 Quantity view di set GONE terlebih dahulu karena yang akan tampil di awal adalah tombol "BELI". Setelah tombol "BELI" di klik maka dia akan di set GONE dan quantity view di set VISIBLE, serta background di set merah. Tambahkan juga Action supaya nilai quantity bertambah saat ditekan tombol (+) dan berkurang saat ditekan tombol (-).
 Jika nilai quantity lebih kecil dari 1 maka di set seperti awal, tombol "BELI" set VISIBLE dan quantity view set GONE serta background kembali ke putih.
 
